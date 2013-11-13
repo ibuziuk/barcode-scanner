@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="oauth.hybrid.demo" version="2.0.0">
+    <name>Barcode Scanner Demo</name>
+
+    <description>
+       
+    </description>
+
+    <author email="aerogear-dev@lists.jboss.org" href="http://aerogear.org/">
+       JBoss by Red Hat
+    </author>
+    
+    <preference name="orientation" value="default"/>
+    <preference name="target-device" value="universal"/>
+    <preference name="fullscreen" value="false"/>
+
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+
+    <access origin="*"/>
+</widget>
